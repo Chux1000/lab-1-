@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color:  rgb(19, 18, 18);
@@ -7,7 +10,7 @@ body{
     min-width: 280px;
     margin: 0 auto;
     padding: 0 15px;
-
+    overflow-x: hidden;
 }
 header{
     background-color: #141414 ;
@@ -21,7 +24,7 @@ header{
 }
 
 #header h1{
-     color: aliceblue;
+    color: aliceblue;
     text-align: left;
     padding: 40px;
     font-size: 1.5rem;
