@@ -11,6 +11,7 @@ body{
     margin: 0 auto;
     padding: 0 15px;
     overflow-x: hidden;
+    text-align: center;
 }
 header{
     background-color: #141414 ;
